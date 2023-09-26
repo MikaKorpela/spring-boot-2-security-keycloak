@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+keycloak:
+  auth-server-url: http://localhost:8080
+  realm: SpringBootRealm
+  resource: spring-boot-login
+  public-client: true
+  bearer-only: true
